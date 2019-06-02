@@ -3,7 +3,7 @@
 #### 获取
 
 ```
-go get github.com/mohong122/ip2region/binding/golang
+go get github.com/lionsoul2014/ip2region/binding/golang
 ```
 
 
@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/mohong122/ip2region/binding/golang"
+	"github.com/lionsoul2014/ip2region/binding/golang/ip2region"
 )
 
 func main() {
@@ -64,7 +64,7 @@ BenchmarkBinarySearch-4|    30000   |          42680 ns/op
 ```
 cd /binging/golang
 
-go run main.go ../../data/ip2Region.db
+go run main.go ../../data/ip2region.db
 
 Or
 
